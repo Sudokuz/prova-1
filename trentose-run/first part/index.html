@@ -4,9 +4,10 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <!-- Put your js and css references here -->
   <link rel="stylesheet" href="styles.css">        
-  <script src="jquery-2.1.0.min.js"></script>         
-  <script src="app.js"></script>        
+  <script src="jquery-2.1.0.min.js"></script> 
   <script src="data.js"></script>
+  <script src="app.js"></script>        
+ 
   
 </head>
 
@@ -15,7 +16,7 @@
 
     <div class="options"> 
      Filter leaderboard by category
-     <select>          
+     <select id="select-filter">          
        <option value="all"> All categories</option>
        <option value="pro"> Professional</option>
        <option value="amateur"> Amateur</option>
@@ -25,7 +26,7 @@
     </div>   
    <hr>
     <ul id="top-selfiers">
-        <!-- This is an example - the list of themes should be loaded dynamically -->
+        <!-- This is an example - the list of themes should be loaded dynamically
         <li>
           <div class="selfie">
             <img src="img/runner1.jpg">          
@@ -66,12 +67,13 @@
           <div class="badge"> 
             #3
           </div>
-        </li>                                                                                                                                                                                                                                                                                                                                                                                      
+        </li>                                                                                                                                                                                                                                                                                                                           -->                                                           
     </ul> 
     
     <hr>
     
-    <ul id="selfiers">   
+    <ul id="selfiers">
+        <!-- dinamically loading these
       <li>
           <div> Fabrizio (pro) </div> 
           <div>   
@@ -98,7 +100,7 @@
           </div>    
       </li>      
       
-      
+      -->
       
     </ul>     
     
